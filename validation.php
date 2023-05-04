@@ -2,5 +2,8 @@
 
 class Validation
 {
-
+    public function has()
+    {
+        echo "this is has function";
+    }
 }
