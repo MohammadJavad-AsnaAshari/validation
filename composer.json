@@ -1,0 +1,22 @@
+{
+  "name": "mj_composer_test/composer_project_test",
+  "description": "this is belong to mj.mj.mj",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Mohammad Javad"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Admin\\" : "admin"
+    },
+    "files": [
+      "app/functions.php"
+    ]
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7.5"
+  }
+}
